@@ -1,0 +1,27 @@
+img {
+  width: 30%;
+  size: repeat;
+  margin: calc(10%/6);
+  transition: box-shadow 0.25s;
+}
+
+nav {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 1.5em;
+  /* text-transform: uppercase; */
+  border-bottom: 2px solid #d62828;
+  width: 30%;
+  margin-left: calc(10%/6);
+  padding: 1em 0;
+  letter-spacing: 0.1em;
+}
+
+span.divider {
+  color: #d62828;
+}
+
+img:hover {
+  box-shadow: 0px 0px 10px 2px #d62828;
+}
